@@ -18,6 +18,11 @@ import Cart from "./Pages/ContextCart/Cart";
 import Main from "./CounterContextReducer/Main";
 import ReduxCounter from "./CounterRedux/ReduxCounter";
 import ToolkitCounter from "./CounterReduxToolKit/ToolKitCounter";
+import BookList from "./Books";
+import UseEffectFetchData from "./useEffect/3-useEffect-fetch-data";
+import GitHubUserSearch from "./GithubUsers Search/GithubUsersSearch";
+import ConditionalRendering from "./conditional-rendering/ConditionalRendering";
+import UseState from "./useState/UseState";
 
 
 function App() {
@@ -45,6 +50,12 @@ function App() {
         <Route path='useRef' element={<UseRefBasics/>}></Route>
         <Route path='controlled' element={<ControlInput/>}></Route>
         <Route path='multiple' element={<MultipleInput/>}></Route>
+        <Route path='bookList' element={<BookList/>}></Route>
+        <Route path='githubUsers' element={<UseEffectFetchData/>}></Route>
+        <Route path='searchGithubUser' element={<GitHubUserSearch/>}></Route>
+        <Route path='githubUsers' element={<UseEffectFetchData/>}></Route>
+        <Route path='rendering' element={<ConditionalRendering/>}></Route>
+        <Route path='useState' element={<UseState/>}></Route>
         <Route path = "*" element={<Error/>} />
     </Route>
   </Routes>

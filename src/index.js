@@ -5,6 +5,7 @@ import ContextProvider from './ContextProvider';
 import { Provider } from 'react-redux';
 import store from './CounterRedux/index';
 import shop from './CounterReduxToolKit/CounterSlice';
+import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

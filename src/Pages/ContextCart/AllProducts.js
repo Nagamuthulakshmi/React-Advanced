@@ -1,5 +1,5 @@
 
-import products from "../../data";
+import products from "../data";
 import OneProduct from "./OneProduct";
 
 

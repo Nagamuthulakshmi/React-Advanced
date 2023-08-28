@@ -1,5 +1,5 @@
 import React from "react";
-import products from "../data";
+import products from "./data";
 import { Link } from "react-router-dom";
 const Products = ()=>{
     return (<>

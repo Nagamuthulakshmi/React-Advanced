@@ -45,6 +45,21 @@ const {cart,setCart} = useContext(CartContext);
      <NavLink to='/multiple' style={({isActive})=>{
         return {backgroundColor:isActive?'pink':'yellow'}
     }}>Multiple Inputs</NavLink>&nbsp;&nbsp;&nbsp;&nbsp;
+    <NavLink to='/booklist' style={({isActive})=>{
+        return {backgroundColor:isActive?'pink':'yellow'}
+    }}>Nested Components</NavLink>&nbsp;&nbsp;&nbsp;&nbsp;
+    <NavLink to='/githubUsers' style={({isActive})=>{
+        return {backgroundColor:isActive?'pink':'yellow'}
+    }}>useEffect-Github Users</NavLink>&nbsp;&nbsp;&nbsp;&nbsp;
+    <NavLink to='/searchGithubUser' style={({isActive})=>{
+        return {backgroundColor:isActive?'pink':'yellow'}
+    }}>Github Users Search</NavLink>&nbsp;&nbsp;&nbsp;&nbsp;
+    <NavLink to='/rendering' style={({isActive})=>{
+        return {backgroundColor:isActive?'pink':'yellow'}
+    }}>Conditional Rendering</NavLink>&nbsp;&nbsp;&nbsp;&nbsp;
+    <NavLink to='/useState' style={({isActive})=>{
+        return {backgroundColor:isActive?'pink':'yellow'}
+    }}>UseState Basics</NavLink>&nbsp;&nbsp;&nbsp;&nbsp;
     </nav>
        
     

@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams,Link } from "react-router-dom";
-import products from "../data";
+import products from "./data";
 
 
 const SingleProduct = ()=>{
